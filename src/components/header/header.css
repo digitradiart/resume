@@ -4,7 +4,7 @@ header {
 }
 
 .header__container {
-  background-color: purple;
+  /* background-color: purple; */
   text-align: center;
   position: relative;
 }
@@ -19,7 +19,7 @@ header {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 /* SOCIALS */
@@ -54,7 +54,7 @@ header {
 
 /* ME */
 .me {
-  margin-top: 12rem;
+  margin-top: 3rem;
   background: linear-gradient(var(--color-primary), transparent);
   width: 20rem;
   height: 20rem;
@@ -82,24 +82,25 @@ header {
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
-/* @media screen and(max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   header {
     height: 68vh;
-  }
-  .me {
-    margin-top: 50rem;
     background-color: red;
   }
-} */
+  .me {
+    width: 15rem;
+    height: 15rem;
+  }
+}
 
 /* MEDIA QUERIES (SMALL DEVICES) */
-/* @media screen and(max-width: 600px) {
+@media only screen and (max-width: 600px) {
   header {
     height: 100vh;
+    background-color: green;
   }
-
   .me {
-    margin-top: 500rem;
-    background-color: red;
+    width: 15rem;
+    height: 15rem;
   }
-} */
+}
