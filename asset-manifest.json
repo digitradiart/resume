@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.8c8c3925.css",
+    "main.js": "/resume/static/js/main.c5081c51.js",
+    "static/media/SERTIF.pdf": "/resume/static/media/SERTIF.838d44b964246a33a2eb.pdf",
+    "static/media/faceless2.png": "/resume/static/media/faceless2.d2a0b6475c043372ca21.png",
+    "index.html": "/resume/index.html",
+    "main.8c8c3925.css.map": "/resume/static/css/main.8c8c3925.css.map",
+    "main.c5081c51.js.map": "/resume/static/js/main.c5081c51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c8c3925.css",
+    "static/js/main.c5081c51.js"
+  ]
+}
