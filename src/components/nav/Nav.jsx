@@ -6,7 +6,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
-      <a href="home" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>
+      <a href="#home" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>
         <img src="https://img.icons8.com/ios-filled/25/ffffff/dog-house.png" alt="home" />
       </a>
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>

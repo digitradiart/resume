@@ -35,8 +35,9 @@ const About = () => {
               <small>20+ completed projects</small>
             </article>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur repellat nostrum enim voluptatum suscipit aliquid dolorum qui cumque ipsa sed, deserunt quasi? Dolorum consequuntur exercitationem odit saepe porro quos cum?
+
+          <p className="text-light">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut sit reiciendis assumenda distinctio quis itaque nobis ullam tempore aspernatur optio placeat numquam qui reprehenderit perferendis autem, enim iusto, nostrum vero.
           </p>
         </div>
       </div>
