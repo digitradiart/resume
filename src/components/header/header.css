@@ -85,7 +85,7 @@ header {
 @media only screen and (max-width: 1024px) {
   header {
     height: 68vh;
-    background-color: red;
+    /* background-color: red; */
   }
   .me {
     width: 15rem;
@@ -97,7 +97,7 @@ header {
 @media only screen and (max-width: 600px) {
   header {
     height: 100vh;
-    background-color: green;
+    /* background-color: green; */
   }
   .me {
     width: 15rem;
