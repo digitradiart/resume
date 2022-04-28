@@ -94,7 +94,7 @@ header {
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   header {
     height: 100vh;
     /* background-color: green; */
