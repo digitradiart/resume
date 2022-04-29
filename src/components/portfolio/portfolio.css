@@ -6,34 +6,35 @@
 h2 {
   font-size: 1rem;
   color: var(--color-primary);
-  margin-bottom: 2rem;
 }
 
 /* CARD */
 .card-container {
+  /* background-color: red; */
   width: 100%;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .flip-card {
   background-color: transparent;
-  width: 700px;
+  width: 650px;
   height: auto;
-  margin: 15rem auto;
+  margin: auto;
+  margin-bottom: 30rem;
   perspective: 1000px;
   z-index: 1;
 }
 
 .flip-card img {
-  border-radius: 10px;
-  width: 700px;
+  border-radius: 16px;
+  width: 650px;
 }
 
 .flip-card-inner {
   position: relative;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 16px;
   text-align: center;
   transition: transform 0.6s;
   z-index: 1;
@@ -48,29 +49,31 @@ h2 {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
-  width: 700px;
+  width: 650px;
+
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .flip-card-back {
   height: auto;
-  background-color: var(--color-primary-variant);
-  border-radius: 10px;
   transform: rotateY(180deg);
   z-index: 1;
   padding: 20%;
+
+  background: rgba(92, 168, 174, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(92, 168, 174, 0.41);
 }
 
-/* MEDIA QUERIES (SMALL DEVICES) */
-@media only screen and (max-width: 700px) {
-  .portfolio_container {
-    background-color: red;
-  }
-
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media only screen and (max-width: 1024px) {
   .flip-card {
     width: 100%;
-    margin: 8rem auto;
+    margin-bottom: 27rem;
   }
 
   .flip-card img {
@@ -84,11 +87,36 @@ h2 {
   .flip-card-front,
   .flip-card-back {
     width: 100%;
-    background-color: purple;
   }
 
   .flip-card-back {
     height: auto;
-    padding: 10%;
+    padding: 25%;
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media only screen and (max-width: 700px) {
+  .flip-card {
+    width: 100%;
+    margin-bottom: 13rem;
+  }
+
+  .flip-card img {
+    width: 100%;
+  }
+
+  .flip-card-inner {
+    width: 100%;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    width: 100%;
+  }
+
+  .flip-card-back {
+    height: auto;
+    padding: 11%;
   }
 }

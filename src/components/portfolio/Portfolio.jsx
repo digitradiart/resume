@@ -15,8 +15,8 @@ const data = [
     id: 2,
     title: 'TITLE 2',
     desc: 'lorem ipsum dolorsit amet',
-    image: 'https://cdn.pixabay.com/photo/2022/04/22/20/13/montmartre-7150549_960_720.jpg',
-    source: 'https://cdn.pixabay.com/photo/2022/04/22/20/13/montmartre-7150549_960_720.jpg',
+    image: 'https://cdn.pixabay.com/photo/2016/06/03/13/57/digital-marketing-1433427_960_720.jpg',
+    source: 'https://cdn.pixabay.com/photo/2016/06/03/13/57/digital-marketing-1433427_960_720.jpg',
   },
 
   {
