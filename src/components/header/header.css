@@ -84,7 +84,7 @@ header {
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media only screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 100vh;
     /* background-color: red; */
   }
   .me {

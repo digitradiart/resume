@@ -35,6 +35,11 @@
   width: 70%;
 }
 
+.about_content p {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .about_cards {
   display: flex;
   flex-direction: row;
@@ -69,16 +74,19 @@
 @media only screen and (max-width: 1024px) {
   .about__container {
     width: var(--container-width-md);
+    flex-direction: column;
   }
 
   .about_me {
-    width: 30%;
+    width: 35%;
+    margin: 1rem auto;
   }
 
   .about_content {
-    width: 80%;
+    width: 100%;
     /* background-color: yellow; */
   }
+
   .about_cards {
     flex-direction: row;
     width: 100%;
