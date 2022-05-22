@@ -15,7 +15,12 @@
   height: 30%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background-image: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+  background-image: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
 }
 
 .about_me_image img {
@@ -33,11 +38,6 @@
 
 .about_content {
   width: 70%;
-}
-
-.about_content p {
-  margin-right: 0;
-  margin-left: 0;
 }
 
 .about_cards {
@@ -96,6 +96,11 @@
   .about_card {
     width: 45%;
   }
+  .about_content .description {
+    margin-right: 0;
+    margin-left: 0;
+    background-color: red;
+  }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
@@ -122,5 +127,11 @@
   }
   .about_card {
     width: 100%;
+  }
+
+  .about_content .description {
+    margin-right: 0;
+    margin-left: 0;
+    background-color: rebeccapurple;
   }
 }
