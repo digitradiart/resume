@@ -99,7 +99,7 @@
   .about_content .description {
     margin-right: 0;
     margin-left: 0;
-    background-color: red;
+    /* background-color: red; */
   }
 }
 
@@ -132,6 +132,6 @@
   .about_content .description {
     margin-right: 0;
     margin-left: 0;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
   }
 }
