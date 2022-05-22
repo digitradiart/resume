@@ -22,8 +22,8 @@ const About = () => {
                 src="https://img.icons8.com/windows/60/ffffff/parse-resumes.png"
                 alt="experience"
               />
-              <h5>Experience</h5>
-              <small>3+ years working</small>
+              <h5>Address</h5>
+              <small>Bogor, West Java - Indonesia</small>
             </article>
 
             <article className="about_card">
@@ -31,8 +31,10 @@ const About = () => {
                 src="https://img.icons8.com/windows/60/ffffff/parse-resumes.png"
                 alt="experience"
               />
-              <h5>Clients</h5>
-              <small>200+ worldwide</small>
+              <h5>Education</h5>
+              <small>
+                Department of Mathematics - IPB University (2014-2018)
+              </small>
             </article>
 
             <article className="about_card">
@@ -40,16 +42,30 @@ const About = () => {
                 src="https://img.icons8.com/windows/60/ffffff/parse-resumes.png"
                 alt="experience"
               />
-              <h5>Projects</h5>
-              <small>20+ completed projects</small>
+              <h5>Interests</h5>
+              <small>
+                <ul>
+                  <li>Data Analytics</li>
+                  <li>Web development</li>
+                  <li>Teaching</li>
+                  <li>Graphic Design</li>
+                </ul>
+              </small>
             </article>
           </div>
 
           <p className="text-light description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut sit
-            reiciendis assumenda distinctio quis itaque nobis ullam tempore
-            aspernatur optio placeat numquam qui reprehenderit perferendis
-            autem, enim iusto, nostrum vero.
+            <small>
+              I am a graduate of Mathematics IPB batch 2014-2018. In college, I
+              studied applied mathematics. I have an interest in computing. I
+              learned to use several computing applications such as Excel,
+              Spreadsheet, Matlab, Mathematica, SPSS, Matlab, and Python. I am
+              also interested in self-taught about website development and
+              graphic design. Since college, I have been a lecturer assistant
+              for computing courses and also teaching calculus lessons for first
+              year students. I also teach Mathematics for elementary - junior
+              high school level.
+            </small>
           </p>
         </div>
       </div>
