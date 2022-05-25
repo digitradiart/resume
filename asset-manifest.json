@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.bdda177c.css",
+    "main.css": "/resume/static/css/main.b2003b65.css",
     "main.js": "/resume/static/js/main.aa0faee6.js",
     "static/media/SERTIF.pdf": "/resume/static/media/SERTIF.838d44b964246a33a2eb.pdf",
     "static/media/p3-tim project Digitalent Scholarship 2020.png": "/resume/static/media/p3-tim project Digitalent Scholarship 2020.ce305b61a1e5824472fc.png",
@@ -12,11 +12,11 @@
     "static/media/p5-login design.png": "/resume/static/media/p5-login design.99e767af890c42cf2571.png",
     "static/media/p6-color code.png": "/resume/static/media/p6-color code.758df2d27430ca753a72.png",
     "index.html": "/resume/index.html",
-    "main.bdda177c.css.map": "/resume/static/css/main.bdda177c.css.map",
+    "main.b2003b65.css.map": "/resume/static/css/main.b2003b65.css.map",
     "main.aa0faee6.js.map": "/resume/static/js/main.aa0faee6.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdda177c.css",
+    "static/css/main.b2003b65.css",
     "static/js/main.aa0faee6.js"
   ]
 }
