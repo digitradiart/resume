@@ -19,7 +19,7 @@ const data = [
   {
     id: 2,
     title: "SAVELINK",
-    desc: "Laman sederhana berisi tautan penting seputar jadwal shalat, ebooks, serta programming resources",
+    desc: "Kumpulan tautan penting seputar jadwal shalat, ebooks, dan programming resources",
     image: IMG2,
     source: "https://savelink.netlify.app/",
   },
@@ -66,7 +66,7 @@ const Portfolio = () => {
         {data.map(({ id, title, desc, image, source }) => {
           return (
             <div className="card-container">
-              {/* <!-- item 1 --> */}
+              {/* <!-- item --> */}
               <div className="flip-card" key={id}>
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
@@ -83,7 +83,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-              {/* <!-- end item 1 --> */}
+              {/* <!-- end item --> */}
             </div>
           );
         })}
