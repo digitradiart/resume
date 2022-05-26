@@ -9,47 +9,61 @@ const Contact = () => {
 
       <div className="contact__container container">
         <div className="contact__socials">
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://img.icons8.com/material-outlined/25/ffffff/github.png"
-              alt="github"
-            />
-          </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://img.icons8.com/ios-glyphs/25/ffffff/linkedin-circled--v1.png"
-              alt="linkedin"
-            />
-          </a>
+          <div className="contact-image">
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/material-outlined/25/ffffff/github.png"
+                alt="github"
+              />
+            </a>
+            <h5>Github</h5>
+          </div>
 
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://img.icons8.com/ios-glyphs/25/ffffff/linkedin-circled--v1.png"
-              alt="linkedin"
-            />
-          </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://img.icons8.com/glyph-neue/25/ffffff/instagram-new.png"
-              alt="instagram"
-            />
-          </a>
+          <div className="contact-image">
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/ios-glyphs/25/ffffff/linkedin-circled--v1.png"
+                alt="linkedin"
+              />
+            </a>
+            <h5>LinkedIn</h5>
+          </div>
+
+          <div className="contact-image">
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/25/ffffff/telegram-app.png"
+                alt="telegram"
+              />
+            </a>
+            <h5>Telegram</h5>
+          </div>
+
+          <div className="contact-image">
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/glyph-neue/25/ffffff/instagram-new.png"
+                alt="instagram"
+              />
+            </a>
+            <h5>Instagram</h5>
+          </div>
         </div>
       </div>
     </section>
