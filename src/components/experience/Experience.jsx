@@ -12,7 +12,7 @@ const Experience = () => {
           <div className="experience_cards">
             <article className="experience_card">
               <img
-                src="https://img.icons8.com/windows/60/ffffff/parse-resumes.png"
+                src="https://img.icons8.com/windows/150/ffffff/parse-resumes.png"
                 alt="experience"
               />
               <h5>Web Development</h5>
@@ -49,7 +49,7 @@ const Experience = () => {
 
             <article className="experience_card">
               <img
-                src="https://img.icons8.com/windows/60/ffffff/parse-resumes.png"
+                src="https://img.icons8.com/windows/150/ffffff/parse-resumes.png"
                 alt="experience"
               />
               <h5>Data Science</h5>
@@ -86,7 +86,7 @@ const Experience = () => {
 
             <article className="experience_card">
               <img
-                src="https://img.icons8.com/windows/60/ffffff/parse-resumes.png"
+                src="https://img.icons8.com/windows/150/ffffff/parse-resumes.png"
                 alt="experience"
               />
               <h5>Graphic Design</h5>

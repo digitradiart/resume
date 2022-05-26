@@ -12,7 +12,8 @@ const Header = () => {
           <h5 className="center-header-child">Hello I'm</h5>
           <h1 className="center-header-child">Ayu Agustina</h1>
           <h5 className="center-header-child">
-            I am a lifetime learner. Welcome to my page!
+            I am a lifetime learner. <br />
+            Welcome to my page!
           </h5>
           <CTA className="center-header-child" />
         </div>

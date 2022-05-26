@@ -16,7 +16,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/material-outlined/25/ffffff/github.png"
+                src="https://img.icons8.com/material-outlined/150/ffffff/github.png"
                 alt="github"
               />
             </a>
@@ -30,7 +30,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/ios-glyphs/25/ffffff/linkedin-circled--v1.png"
+                src="https://img.icons8.com/ios-glyphs/150/ffffff/linkedin-circled--v1.png"
                 alt="linkedin"
               />
             </a>
@@ -44,7 +44,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/ios-filled/25/ffffff/telegram-app.png"
+                src="https://img.icons8.com/ios-filled/150/ffffff/telegram-app.png"
                 alt="telegram"
               />
             </a>
@@ -58,7 +58,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/glyph-neue/25/ffffff/instagram-new.png"
+                src="https://img.icons8.com/glyph-neue/150/ffffff/instagram-new.png"
                 alt="instagram"
               />
             </a>

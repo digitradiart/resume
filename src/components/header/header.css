@@ -56,8 +56,8 @@ header {
 .me {
   margin-top: 3rem;
   background: linear-gradient(var(--color-primary), transparent);
-  width: 20rem;
-  height: 20rem;
+  width: 17rem;
+  height: 17rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -82,7 +82,7 @@ header {
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
   header {
     min-height: 100vh;
     /* background-color: red; */
@@ -100,7 +100,8 @@ header {
     /* background-color: green; */
   }
   .me {
-    width: 15rem;
-    height: 15rem;
+    margin-top: 6rem;
+    width: 12rem;
+    height: 12rem;
   }
 }

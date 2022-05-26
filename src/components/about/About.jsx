@@ -19,7 +19,7 @@ const About = () => {
           <div className="about_cards">
             <article className="about_card">
               <img
-                src="https://img.icons8.com/windows/60/ffffff/parse-resumes.png"
+                src="https://img.icons8.com/windows/150/ffffff/parse-resumes.png"
                 alt="experience"
               />
               <h5>Address</h5>
@@ -28,7 +28,7 @@ const About = () => {
 
             <article className="about_card">
               <img
-                src="https://img.icons8.com/windows/60/ffffff/parse-resumes.png"
+                src="https://img.icons8.com/windows/150/ffffff/parse-resumes.png"
                 alt="experience"
               />
               <h5>Education</h5>
@@ -39,7 +39,7 @@ const About = () => {
 
             <article className="about_card">
               <img
-                src="https://img.icons8.com/windows/60/ffffff/parse-resumes.png"
+                src="https://img.icons8.com/windows/150/ffffff/parse-resumes.png"
                 alt="experience"
               />
               <h5>Interests</h5>

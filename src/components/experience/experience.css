@@ -29,6 +29,9 @@
   transition: var(--transition);
 }
 
+.experience_card img {
+  width: 60px;
+}
 .experience_card h5 {
   font-size: 0.9rem;
 }
