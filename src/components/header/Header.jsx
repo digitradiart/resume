@@ -3,7 +3,6 @@ import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/faceless2.png";
 import HeaderSocials from "./HeaderSocials";
-// import Typewriter from 'typewriter-effect';
 
 const Header = () => {
   return (
