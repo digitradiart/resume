@@ -1,10 +1,9 @@
 header {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 4rem;
 }
 
 .header__container {
-  /* background-color: purple; */
   text-align: center;
   position: relative;
 }
@@ -30,7 +29,8 @@ header {
   gap: 0.1rem;
   position: absolute;
   left: 0;
-  bottom: -17rem;
+  /* bottom: -17rem; */
+  top: 22rem;
   z-index: 100;
 }
 
@@ -76,7 +76,8 @@ header {
 .scroll-down {
   position: absolute;
   right: -2.3rem;
-  bottom: -13rem;
+  /* bottom: -13rem; */
+  top: 25rem;
   transform: rotate(90deg);
   z-index: 100;
 }

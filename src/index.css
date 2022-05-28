@@ -45,6 +45,7 @@ body {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  min-height: 100vh;
 }
 
 h1,

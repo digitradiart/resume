@@ -102,7 +102,6 @@
   .about_content .description {
     margin-right: 0;
     margin-left: 0;
-    /* background-color: red; */
   }
 }
 
@@ -110,7 +109,6 @@
 @media only screen and (max-width: 600px) {
   .about__container {
     width: var(--container-width-sm);
-    /* background-color: red; */
     flex-direction: column;
     gap: 2rem;
   }
@@ -135,6 +133,12 @@
   .about_content .description {
     margin-right: 0;
     margin-left: 0;
-    /* background-color: rebeccapurple; */
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  #about {
+    margin-top: 20rem;
+    /* background-color: purple; */
   }
 }
