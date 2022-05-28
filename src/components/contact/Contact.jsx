@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="contact__socials">
           <div className="contact-image">
             <a
-              href="https://linkedin.com"
+              href="https://github.com/digitradiart"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -25,7 +25,7 @@ const Contact = () => {
 
           <div className="contact-image">
             <a
-              href="https://linkedin.com"
+              href="https://id.linkedin.com/in/ayuagst/in"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,7 +39,7 @@ const Contact = () => {
 
           <div className="contact-image">
             <a
-              href="https://linkedin.com"
+              href="https://t.me/digitradiart"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,7 +53,7 @@ const Contact = () => {
 
           <div className="contact-image">
             <a
-              href="https://linkedin.com"
+              href="https://www.instagram.com/digitradiart/"
               target="_blank"
               rel="noopener noreferrer"
             >
