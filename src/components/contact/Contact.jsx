@@ -20,7 +20,9 @@ const Contact = () => {
                 alt="github"
               />
             </a>
-            <h5>Github</h5>
+            <h5>
+              <small>Github</small>
+            </h5>
           </div>
 
           <div className="contact-image">
@@ -34,7 +36,9 @@ const Contact = () => {
                 alt="linkedin"
               />
             </a>
-            <h5>LinkedIn</h5>
+            <h5>
+              <small>LinkedIn</small>
+            </h5>
           </div>
 
           <div className="contact-image">
@@ -48,7 +52,9 @@ const Contact = () => {
                 alt="telegram"
               />
             </a>
-            <h5>Telegram</h5>
+            <h5>
+              <small>Telegram</small>
+            </h5>
           </div>
 
           <div className="contact-image">
@@ -62,7 +68,9 @@ const Contact = () => {
                 alt="instagram"
               />
             </a>
-            <h5>Instagram</h5>
+            <h5>
+              <small>Instagram</small>
+            </h5>
           </div>
         </div>
       </div>

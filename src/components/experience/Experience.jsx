@@ -29,7 +29,7 @@ const Experience = () => {
                 src="https://img.icons8.com/windows/150/ffffff/parse-resumes.png"
                 alt="experience"
               />
-              <h5>Data Science</h5>
+              <h5>Data Analytics</h5>
               <DataCertificate></DataCertificate>
             </article>
 

@@ -44,12 +44,7 @@ const About = () => {
               />
               <h5>Interests</h5>
               <small>
-                <ul>
-                  <li>Data Analytics</li>
-                  <li>Web development</li>
-                  <li>Teaching</li>
-                  <li>Graphic Design</li>
-                </ul>
+                Web development, Data Analytics, Teaching, Graphic Design
               </small>
             </article>
           </div>
