@@ -1,11 +1,13 @@
 import React from "react";
 import "./experience.css";
+// import Example from "./Modal";
 
 const Experience = () => {
   return (
     <section id="experience">
       <h5>What I've been Learning</h5>
       <h2>My Experiences</h2>
+      {/* <Example></Example> */}
 
       <div className="container experience__container">
         <div className="experience_content">
