@@ -1,13 +1,16 @@
 import React from "react";
 import "./experience.css";
-// import Example from "./Modal";
+// Importing the Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+import WebCertificate from "./Modal";
+import DataCertificate from "./Modal2";
+import DesignCertificate from "./Modal3";
 
 const Experience = () => {
   return (
     <section id="experience">
       <h5>What I've been Learning</h5>
       <h2>My Experiences</h2>
-      {/* <Example></Example> */}
 
       <div className="container experience__container">
         <div className="experience_content">
@@ -18,35 +21,7 @@ const Experience = () => {
                 alt="experience"
               />
               <h5>Web Development</h5>
-              <small>
-                <ul>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                </ul>
-              </small>
+              <WebCertificate></WebCertificate>
             </article>
 
             <article className="experience_card">
@@ -55,35 +30,7 @@ const Experience = () => {
                 alt="experience"
               />
               <h5>Data Science</h5>
-              <small>
-                <ul>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                </ul>
-              </small>
+              <DataCertificate></DataCertificate>
             </article>
 
             <article className="experience_card">
@@ -92,35 +39,7 @@ const Experience = () => {
                 alt="experience"
               />
               <h5>Graphic Design</h5>
-              <small>
-                <ul>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      Front end
-                    </a>
-                  </li>
-                </ul>
-              </small>
+              <DesignCertificate></DesignCertificate>
             </article>
           </div>
         </div>

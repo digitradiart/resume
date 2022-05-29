@@ -80,3 +80,21 @@
     width: 100%;
   }
 }
+
+/* MODAL  */
+.modalHeader {
+  background: var(--color-bg-variant);
+  color: var(--color-primary);
+}
+
+.modalBody {
+  background: var(--color-bg);
+  padding-bottom: 5rem;
+}
+
+.modal-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}

@@ -62,7 +62,7 @@ const data = [
   },
 ];
 
-function WebCertificate() {
+function DataCertificate() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -83,7 +83,7 @@ function WebCertificate() {
         centered
       >
         <Modal.Header closeButton className="modalHeader">
-          <Modal.Title>Web Development</Modal.Title>
+          <Modal.Title>Data Analytics</Modal.Title>
         </Modal.Header>
         <Modal.Body className="modalBody">
           {data.map(({ id, title, desc, image, source }) => {
@@ -92,10 +92,14 @@ function WebCertificate() {
                 <h5>
                   {id}. {title}
                 </h5>
-
                 <img src={image} alt={title} />
                 <small>{desc}</small>
-                <a href={source} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={source}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt={title}
+                >
                   view
                 </a>
                 <hr></hr>
@@ -108,4 +112,4 @@ function WebCertificate() {
   );
 }
 
-export default WebCertificate;
+export default DataCertificate;
