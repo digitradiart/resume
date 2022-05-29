@@ -83,8 +83,8 @@
 
 /* MODAL  */
 .modalHeader {
-  background: var(--color-bg-variant);
-  color: var(--color-primary);
+  color: var(--color-bg-variant);
+  background: var(--color-primary);
 }
 
 .modalBody {
@@ -97,4 +97,11 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
+  padding: 1.5rem 0;
+  background: rgba(92, 168, 174, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(92, 168, 174, 0.41);
 }

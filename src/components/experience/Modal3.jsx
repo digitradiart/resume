@@ -102,7 +102,6 @@ function DesignCertificate() {
                 >
                   view
                 </a>
-                <hr></hr>
               </div>
             );
           })}

@@ -98,7 +98,6 @@ function WebCertificate() {
                 <a href={source} target="_blank" rel="noopener noreferrer">
                   view
                 </a>
-                <hr></hr>
               </div>
             );
           })}

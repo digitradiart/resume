@@ -102,7 +102,6 @@ function DataCertificate() {
                 >
                   view
                 </a>
-                <hr></hr>
               </div>
             );
           })}
