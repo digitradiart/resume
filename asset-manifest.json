@@ -1,10 +1,34 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.d62da6ca.css",
-    "main.js": "/resume/static/js/main.e1923618.js",
-    "static/media/SERTIF.pdf": "/resume/static/media/SERTIF.838d44b964246a33a2eb.pdf",
+    "main.js": "/resume/static/js/main.f5b4e85f.js",
     "static/media/p3-tim project Digitalent Scholarship 2020.png": "/resume/static/media/p3-tim project Digitalent Scholarship 2020.ce305b61a1e5824472fc.png",
+    "static/media/python1.jpg": "/resume/static/media/python1.b00dcce1e8a334fabc6d.jpg",
+    "static/media/web2.jpg": "/resume/static/media/web2.e3d5a0b2a751a95ee698.jpg",
     "static/media/p2-prayer time.png": "/resume/static/media/p2-prayer time.fcd9c010f568cca1170b.png",
+    "static/media/Front End Web.jpg": "/resume/static/media/Front End Web.e3ee16e5db03b86f7b7b.jpg",
+    "static/media/Software Dev.jpg": "/resume/static/media/Software Dev.46fbd4130ca8b3a76fd6.jpg",
+    "static/media/Javascript.jpg": "/resume/static/media/Javascript.eeb421d647350d45c252.jpg",
+    "static/media/Python.jpg": "/resume/static/media/Python.5ef5cb345b42e5ead4ca.jpg",
+    "static/media/python3.jpg": "/resume/static/media/python3.5ef5cb345b42e5ead4ca.jpg",
+    "static/media/visualisasi data.jpg": "/resume/static/media/visualisasi data.7577be3755f144e9c034.jpg",
+    "static/media/PWA.jpg": "/resume/static/media/PWA.ccf4e04b6f84fe3e6598.jpg",
+    "static/media/Web.jpg": "/resume/static/media/Web.5eda1b821ab5304a8cf0.jpg",
+    "static/media/python2.jpg": "/resume/static/media/python2.0ecf98eae2afe5fbfae6.jpg",
+    "static/media/ilovepdf_merged (2)_page-0008.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0008.d1dcf5f380cdb659f797.jpg",
+    "static/media/ilovepdf_merged (2)_page-0013.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0013.cbefb3b6bce0c1578451.jpg",
+    "static/media/ilovepdf_merged (2)_page-0003.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0003.a93252350dbd3a60e66b.jpg",
+    "static/media/ilovepdf_merged (2)_page-0010.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0010.545114259480c9b92a42.jpg",
+    "static/media/ilovepdf_merged (2)_page-0011.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0011.545114259480c9b92a42.jpg",
+    "static/media/ilovepdf_merged (2)_page-0001.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0001.5fca98f2beb2d195ce39.jpg",
+    "static/media/ilovepdf_merged (2)_page-0007.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0007.550666ce040ef7d358d0.jpg",
+    "static/media/Node JS.jpg": "/resume/static/media/Node JS.6c004f7cbc970762feea.jpg",
+    "static/media/ilovepdf_merged (2)_page-0004.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0004.c80f447b859a1a6b8d3f.jpg",
+    "static/media/ilovepdf_merged (2)_page-0012.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0012.5682b5c1258833bbb3f3.jpg",
+    "static/media/ilovepdf_merged (2)_page-0009.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0009.223d2858130e373633d4.jpg",
+    "static/media/ilovepdf_merged (2)_page-0006.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0006.6505ea8b44a29cd19fcc.jpg",
+    "static/media/ilovepdf_merged (2)_page-0005.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0005.c82dc0112c0c6a1fd8d2.jpg",
+    "static/media/ilovepdf_merged (2)_page-0002.jpg": "/resume/static/media/ilovepdf_merged (2)_page-0002.8f25f59275139acc68b4.jpg",
     "static/media/svg.png": "/resume/static/media/svg.a729df5e01f5bdf2cc6e.png",
     "static/media/p4-Book Shelf.png": "/resume/static/media/p4-Book Shelf.b63867a4bc27448269ba.png",
     "static/media/faceless2.png": "/resume/static/media/faceless2.d2a0b6475c043372ca21.png",
@@ -13,10 +37,10 @@
     "static/media/p6-color code.png": "/resume/static/media/p6-color code.758df2d27430ca753a72.png",
     "index.html": "/resume/index.html",
     "main.d62da6ca.css.map": "/resume/static/css/main.d62da6ca.css.map",
-    "main.e1923618.js.map": "/resume/static/js/main.e1923618.js.map"
+    "main.f5b4e85f.js.map": "/resume/static/js/main.f5b4e85f.js.map"
   },
   "entrypoints": [
     "static/css/main.d62da6ca.css",
-    "static/js/main.e1923618.js"
+    "static/js/main.f5b4e85f.js"
   ]
 }
