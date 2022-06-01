@@ -5,60 +5,54 @@ import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./experience.css";
 
-import IMG1 from "../../assets/p1-payment.png";
-import IMG2 from "../../assets/p2-prayer time.png";
-import IMG3 from "../../assets/p3-tim project Digitalent Scholarship 2020.png";
-import IMG4 from "../../assets/p4-Book Shelf.png";
-import IMG5 from "../../assets/p5-login design.png";
-import IMG6 from "../../assets/p6-color code.png";
+import IMG1 from "../../assets/sertif-web/web2.jpg";
+import IMG2 from "../../assets/sertif-web/Web.jpg";
+import IMG4 from "../../assets/sertif-web/Front End Web.jpg";
+import IMG5 from "../../assets/sertif-web/Javascript.jpg";
+import IMG6 from "../../assets/sertif-web/Node JS.jpg";
+import IMG7 from "../../assets/sertif-web/PWA.jpg";
+import IMG8 from "../../assets/sertif-web/Software Dev.jpg";
 
 const data = [
   {
     id: 1,
-    title: "Payment Planning Card Design",
-    desc: "Desain laman untuk payment planning",
+    title: "Udemy",
     image: IMG1,
-    source: "https://payment-planning-cards.vercel.app/",
   },
 
   {
     id: 2,
-    title: "SAVELINK",
-    desc: "Kumpulan tautan penting seputar jadwal shalat, ebooks, dan programming resources",
+    title: "Dicoding",
     image: IMG2,
-    source: "https://savelink.netlify.app/",
   },
 
   {
     id: 3,
-    title: "Digitalent Scholarship 2020",
-    desc: "Landing page untuk Tim B10",
-    image: IMG3,
-    source: "https://digitradiart.github.io/B10_DTS20_Progate/",
+    title: "Dicoding",
+    image: IMG4,
   },
 
   {
     id: 4,
-    title: "Book Shelf",
-    desc: "Simple book marks for our book shelf",
-    image: IMG4,
-    source: "https://digitradiart.github.io/bookshelf-by-ayu/",
+    title: "Dicoding",
+    image: IMG5,
   },
 
   {
     id: 5,
-    title: "Simple Login Design",
-    desc: "Simple Login Design",
-    image: IMG5,
-    source: "https://digitradiart.github.io/loginpage1/",
+    title: "Progate",
+    image: IMG6,
   },
 
   {
     id: 6,
-    title: "Color Code",
-    desc: "Color code changer",
-    image: IMG6,
-    source: "https://digitradiart.github.io/background-color-changer/",
+    title: "Dicoding",
+    image: IMG7,
+  },
+  {
+    id: 7,
+    title: "Dicoding",
+    image: IMG8,
   },
 ];
 
@@ -86,7 +80,7 @@ function WebCertificate() {
           <Modal.Title>Web Development</Modal.Title>
         </Modal.Header>
         <Modal.Body className="modalBody">
-          {data.map(({ id, title, desc, image, source }) => {
+          {data.map(({ id, title, image }) => {
             return (
               <div className="modal-container text-center">
                 <h5>
@@ -94,10 +88,6 @@ function WebCertificate() {
                 </h5>
 
                 <img src={image} alt={title} />
-                <small>{desc}</small>
-                <a href={source} target="_blank" rel="noopener noreferrer">
-                  view
-                </a>
               </div>
             );
           })}

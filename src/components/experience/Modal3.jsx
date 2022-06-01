@@ -5,60 +5,91 @@ import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./experience.css";
 
-import IMG1 from "../../assets/p1-payment.png";
-import IMG2 from "../../assets/p2-prayer time.png";
-import IMG3 from "../../assets/p3-tim project Digitalent Scholarship 2020.png";
-import IMG4 from "../../assets/p4-Book Shelf.png";
-import IMG5 from "../../assets/p5-login design.png";
-import IMG6 from "../../assets/p6-color code.png";
+import IMG1 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0001.jpg";
+import IMG2 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0002.jpg";
+import IMG3 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0003.jpg";
+import IMG4 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0005.jpg";
+import IMG5 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0006.jpg";
+import IMG6 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0007.jpg";
+import IMG7 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0008.jpg";
+import IMG8 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0009.jpg";
+import IMG9 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0010.jpg";
+import IMG10 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0011.jpg";
+import IMG11 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0012.jpg";
+import IMG12 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0013.jpg";
+import IMG13 from "../../assets/sertif-seminar/ilovepdf_merged (2)_page-0004.jpg";
 
 const data = [
   {
     id: 1,
-    title: "Payment Planning Card Design",
-    desc: "Desain laman untuk payment planning",
+    title: "Udemy",
     image: IMG1,
-    source: "https://payment-planning-cards.vercel.app/",
   },
 
   {
     id: 2,
-    title: "SAVELINK",
-    desc: "Kumpulan tautan penting seputar jadwal shalat, ebooks, dan programming resources",
+    title: "Dicoding",
     image: IMG2,
-    source: "https://savelink.netlify.app/",
   },
 
   {
     id: 3,
-    title: "Digitalent Scholarship 2020",
-    desc: "Landing page untuk Tim B10",
+    title: "Progate",
     image: IMG3,
-    source: "https://digitradiart.github.io/B10_DTS20_Progate/",
   },
 
   {
     id: 4,
-    title: "Book Shelf",
-    desc: "Simple book marks for our book shelf",
+    title: "Progate",
     image: IMG4,
-    source: "https://digitradiart.github.io/bookshelf-by-ayu/",
   },
 
   {
     id: 5,
-    title: "Simple Login Design",
-    desc: "Simple Login Design",
+    title: "Dicoding",
     image: IMG5,
-    source: "https://digitradiart.github.io/loginpage1/",
   },
 
   {
     id: 6,
-    title: "Color Code",
-    desc: "Color code changer",
+    title: "Progate",
     image: IMG6,
-    source: "https://digitradiart.github.io/background-color-changer/",
+  },
+
+  {
+    id: 7,
+    title: "Dicoding",
+    image: IMG7,
+  },
+  {
+    id: 8,
+    title: "Dicoding",
+    image: IMG8,
+  },
+  {
+    id: 9,
+    title: "Dicoding",
+    image: IMG9,
+  },
+  {
+    id: 10,
+    title: "Dicoding",
+    image: IMG10,
+  },
+  {
+    id: 11,
+    title: "Progate",
+    image: IMG11,
+  },
+  {
+    id: 12,
+    title: "Dicoding",
+    image: IMG12,
+  },
+  {
+    id: 13,
+    title: "Dicoding",
+    image: IMG13,
   },
 ];
 
@@ -83,25 +114,16 @@ function DesignCertificate() {
         centered
       >
         <Modal.Header closeButton className="modalHeader">
-          <Modal.Title>Graphic Design</Modal.Title>
+          <Modal.Title>Seminars</Modal.Title>
         </Modal.Header>
         <Modal.Body className="modalBody">
-          {data.map(({ id, title, desc, image, source }) => {
+          {data.map(({ id, title, image }) => {
             return (
               <div className="modal-container text-center">
                 <h5>
                   {id}. {title}
                 </h5>
                 <img src={image} alt={title} />
-                <small>{desc}</small>
-                <a
-                  href={source}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt={title}
-                >
-                  view
-                </a>
               </div>
             );
           })}

@@ -5,60 +5,41 @@ import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./experience.css";
 
-import IMG1 from "../../assets/p1-payment.png";
-import IMG2 from "../../assets/p2-prayer time.png";
-import IMG3 from "../../assets/p3-tim project Digitalent Scholarship 2020.png";
-import IMG4 from "../../assets/p4-Book Shelf.png";
-import IMG5 from "../../assets/p5-login design.png";
-import IMG6 from "../../assets/p6-color code.png";
+import IMG1 from "../../assets/sertif-data/Python.jpg";
+import IMG2 from "../../assets/sertif-data/python1.jpg";
+import IMG3 from "../../assets/sertif-data/python2.jpg";
+import IMG4 from "../../assets/sertif-data/python3.jpg";
+import IMG5 from "../../assets/sertif-data/visualisasi data.jpg";
 
 const data = [
   {
     id: 1,
-    title: "Payment Planning Card Design",
-    desc: "Desain laman untuk payment planning",
+    title: "Dicoding",
     image: IMG1,
-    source: "https://payment-planning-cards.vercel.app/",
   },
 
   {
     id: 2,
-    title: "SAVELINK",
-    desc: "Kumpulan tautan penting seputar jadwal shalat, ebooks, dan programming resources",
+    title: "CISCO",
     image: IMG2,
-    source: "https://savelink.netlify.app/",
   },
 
   {
     id: 3,
-    title: "Digitalent Scholarship 2020",
-    desc: "Landing page untuk Tim B10",
+    title: "CISCO",
     image: IMG3,
-    source: "https://digitradiart.github.io/B10_DTS20_Progate/",
   },
 
   {
     id: 4,
-    title: "Book Shelf",
-    desc: "Simple book marks for our book shelf",
+    title: "Dicoding",
     image: IMG4,
-    source: "https://digitradiart.github.io/bookshelf-by-ayu/",
   },
 
   {
     id: 5,
-    title: "Simple Login Design",
-    desc: "Simple Login Design",
+    title: "Dicoding",
     image: IMG5,
-    source: "https://digitradiart.github.io/loginpage1/",
-  },
-
-  {
-    id: 6,
-    title: "Color Code",
-    desc: "Color code changer",
-    image: IMG6,
-    source: "https://digitradiart.github.io/background-color-changer/",
   },
 ];
 
@@ -86,22 +67,13 @@ function DataCertificate() {
           <Modal.Title>Data Analytics</Modal.Title>
         </Modal.Header>
         <Modal.Body className="modalBody">
-          {data.map(({ id, title, desc, image, source }) => {
+          {data.map(({ id, title, image }) => {
             return (
               <div className="modal-container text-center">
                 <h5>
                   {id}. {title}
                 </h5>
                 <img src={image} alt={title} />
-                <small>{desc}</small>
-                <a
-                  href={source}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt={title}
-                >
-                  view
-                </a>
               </div>
             );
           })}

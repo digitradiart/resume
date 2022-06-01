@@ -1,5 +1,5 @@
-import React from 'react';
-import SERTIF from '../../assets/SERTIF.pdf';
+import React from "react";
+import SERTIF from "../../assets/sertif-web/web2.jpg";
 
 const CTA = () => {
   return (
